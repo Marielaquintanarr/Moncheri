@@ -2,7 +2,12 @@
 export function Header() {
     return (
       <>
-      <div style={{}}>
+      <div style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center", 
+          textAlign: "center"
+        }}>
         <div style={{display: "flex", gap: "200px", fontSize: "32px", fontWeight: '100'}}>
             <p>Nosotros</p>
             <p>Productos</p>
